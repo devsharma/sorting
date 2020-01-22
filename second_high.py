@@ -3,8 +3,7 @@ import sys
 if __name__ == '__main__':
   n = int(input('Length of array : ').strip())
   arr = input('Content of array : ').strip().split(" ")
-  print(len(arr))
-  print(arr)
+
   if len(arr) != n:
     print('Incorrect #no of content of array. Exiting')
     sys.exit(1)
